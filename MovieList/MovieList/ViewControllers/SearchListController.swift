@@ -20,6 +20,7 @@ class SearchListController: UICollectionViewController, UICollectionViewDelegate
         navigationController?.navigationBar.barTintColor = UIColor.black
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.orange]
         
+        
         title = "Movies"
         navigationItem.largeTitleDisplayMode = .always
         collectionView.backgroundColor = .black
@@ -35,6 +36,9 @@ class SearchListController: UICollectionViewController, UICollectionViewDelegate
         navigationItem.hidesSearchBarWhenScrolling = false
         searchController.searchBar.delegate = self
         searchController.searchBar.text = "Black"
+        searchController.searchBar.tintColor = .lightGray
+        let textFieldInsideSearchBar = searchController.searchBar.value(forKey: "searchField") as? UITextField
+        textFieldInsideSearchBar?.textColor = .lightGray
     }
     
     var timer: Timer?
