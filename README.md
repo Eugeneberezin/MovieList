@@ -9,4 +9,4 @@ No storyboards. Just my preference. I use UICollectionView to display a list of 
 I ustilise a service singleton to make a request to the end point and update my UI. 
 
 ### Screenshot
-![iPhone](https://github.com/Eugeneberezin/kindleApp-swift/blob/master/Images/Screen%20Shot%202019-07-05%20at%208.50.01%20PM.png)
+![iPhone](https://github.com/Eugeneberezin/MovieList/blob/master/images/Screen%20Shot%202019-12-08%20at%201.15.10%20PM.png)
